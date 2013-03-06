@@ -7,6 +7,10 @@ The use case is if you have a vagrant box, stored on S3 (or another storage
 provider supported by fog) that you don't want to be downloadable publicly that
 you need to authenticate somehow to get at.
 
+Note that this doesn't actually add an additional vagrant downloader class, but instead
+grabs the authenticated url and uses ```Vagrant::Downloaders::HTTP``` to fetch
+the box.
+
 Example:
 
 ```ruby
