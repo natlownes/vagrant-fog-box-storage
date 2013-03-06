@@ -1,3 +1,3 @@
 require 'fog'
-require 'vagrant-fog-box-storage/version'
-require 'vagrant-fog-box-storage/config'
+require File.join(File.dirname(__FILE__), 'vagrant-fog-box-storage', 'version')
+require File.join(File.dirname(__FILE__), 'vagrant-fog-box-storage', 'config')
