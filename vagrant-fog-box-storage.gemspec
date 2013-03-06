@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Nat Lownes"]
   s.email       = ["nat.lownes@gmail.com"]
-  s.homepage    = ""
-  s.summary     = ""
-  s.description = ""
+  s.homepage    = "https://github.com/natlownes/vagrant-fog-box-storage"
+  s.summary     = "The use case is if you have a vagrant box, stored on S3 (or another storage provider supported by fog) that you don't want to be downloadable publicly that you need to authenticate somehow to get at."
+  s.description = File.read('README.md')
 
   s.required_rubygems_version = ">= 1.3.6"
 
