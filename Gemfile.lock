@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    vagrant-fog-box-storage (0.0.1)
-      fog (~> 1.0)
+    vagrant-fog-box-storage (0.0.3)
+      fog (= 1.9.0)
       vagrant (~> 1.0.6)
 
 GEM
@@ -13,8 +13,8 @@ GEM
     childprocess (0.3.9)
       ffi (~> 1.0, >= 1.0.11)
     erubis (2.7.0)
-    excon (0.19.5)
-    ffi (1.4.0)
+    excon (0.20.1)
+    ffi (1.6.0)
     fog (1.9.0)
       builder
       excon (~> 0.14)
@@ -27,23 +27,23 @@ GEM
       ruby-hmac
     formatador (0.2.4)
     i18n (0.6.4)
-    json (1.5.5)
+    json (1.7.7)
     log4r (1.1.10)
-    mime-types (1.21)
+    mime-types (1.22)
     mocha (0.9.12)
-    multi_json (1.6.1)
+    multi_json (1.7.2)
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
     net-ssh (2.2.2)
-    nokogiri (1.5.6)
+    nokogiri (1.5.9)
     protest (0.4.2)
     ruby-hmac (0.4.0)
-    vagrant (1.0.6)
+    vagrant (1.0.7)
       archive-tar-minitar (= 0.5.2)
       childprocess (~> 0.3.1)
       erubis (~> 2.7.0)
       i18n (~> 0.6.0)
-      json (~> 1.5.1)
+      json (>= 1.5.1, < 1.8.0)
       log4r (~> 1.1.9)
       net-scp (~> 1.0.4)
       net-ssh (~> 2.2.2)
