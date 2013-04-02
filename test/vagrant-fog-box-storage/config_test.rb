@@ -6,7 +6,7 @@ Protest.describe("Configuration class") do
 
     @klass    = VagrantFogBoxStorage::Config
     @instance = @klass.new
-    @errors   = Vagrant::Config::ErrorRecorder.new
+    @errors   = {}
     @env      = mock('Vagrant::Environment')
   end
 

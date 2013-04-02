@@ -1,4 +1,4 @@
-require 'vagrant/config'
+require 'vagrant'
 
 
 module VagrantFogBoxStorage
@@ -6,7 +6,7 @@ module VagrantFogBoxStorage
   class CloudStorageBoxNotFound < Exception ; end
   class CloudStorageBucketNotFound < Exception ; end
 
-  class Config < Vagrant::Config::Base
+  class Config < Vagrant.plugin("2", :config)
     def self.key_names
       [
         :provider,
