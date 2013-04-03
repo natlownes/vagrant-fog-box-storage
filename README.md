@@ -1,5 +1,7 @@
 # vagrant-fog-box-storage
 
+### Note - this is not yet compatible with Vagrant 1.1.
+
 Use the [fog](http://fog.io/) gem to get the authenticated url of a box to download from your favorite
 cloud storage jawn.
 

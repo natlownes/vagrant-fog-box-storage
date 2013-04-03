@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.6"
 
-  s.add_dependency "vagrant" , "~> 1.0.6"
+  s.add_dependency "vagrant" , "~> 1.0"
   s.add_dependency "fog"     , "= 1.9.0"
 
   s.add_development_dependency "protest" , "~> 0.4.0"

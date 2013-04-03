@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    vagrant-fog-box-storage (0.0.3)
+    vagrant-fog-box-storage (0.0.4)
       fog (= 1.9.0)
-      vagrant (~> 1.0.6)
+      vagrant (~> 1.0)
 
 GEM
   remote: http://rubygems.org/
